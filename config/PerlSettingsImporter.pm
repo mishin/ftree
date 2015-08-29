@@ -33,14 +33,15 @@ sub importSettings {
     adminHomepage    => "http://www.cs.bme.hu/~bodon",
 
 #   EXCEL DATASOURCE: 
-    # data_source      => {
-      # type => "excel",
-      # config => {
+    data_source      => {
+      type => "excel",
+      config => {
         # file_name => "../tree.xls",
-        # photo_dir        => "../pictures/", # relative to ftree.cgi file 
-        # photo_url        => "../pictures/", # set this according to webserver's settings 
-      # }
-    # },
+        file_name => "../export-BloodTree.xls",
+        photo_dir        => "../pictures/", # relative to ftree.cgi file 
+        photo_url        => "../pictures/", # set this according to webserver's settings 
+      }
+    },
 
 ##   CSV/TXT DATASOURCE: 
 #    data_source      => {
@@ -55,14 +56,14 @@ sub importSettings {
 
 
 ## GEDCOM DATASOURCE
-   data_source      => {
-     type => "gedcom",
-     config => {
-       # file_name => "../royal.ged",
-       file_name => "../export-BloodTree.ged",
-       photo_url        => "../pictures/", # set this according to webserver's settings 
-     }
-   },
+   # data_source      => {
+     # type => "gedcom",
+     # config => {
+       # # file_name => "../royal.ged",
+       # file_name => "../export-BloodTree.ged",
+       # photo_url        => "../pictures/", # set this according to webserver's settings 
+     # }
+   # },
 
 
 ## DATA FROM DATABASE
