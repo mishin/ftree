@@ -1,0 +1,12 @@
+[Sat Aug 29 13:07:45 2015] ftree.cgi: Undefined subroutine &Params::Validate::SCALAR called at C:/xampp/cgi-bin/ftree/cgi/FamilyTreeData.pm line 70.
+Status: 500
+Content-type: text/html
+
+<h1>Software error:</h1>
+<pre>Undefined subroutine &amp;Params::Validate::SCALAR called at C:/xampp/cgi-bin/ftree/cgi/FamilyTreeData.pm line 70.
+</pre>
+<p>
+For help, please send mail to this site's webmaster, giving this error message 
+and the time and date of the error.
+
+</p>

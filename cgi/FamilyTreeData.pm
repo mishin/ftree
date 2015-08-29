@@ -27,7 +27,34 @@ use warnings;
 use Person;
 use Name;
 use DataParsers::FieldValidatorParser;
-use Params::Validate qw(:all);
+# use Params::Validate::Array qw(SCALAR ARRAYREF validate);# ...);
+# use Params::Validate::Array qw(SCALAR HASHREF validate);
+use Params::Validate qw(validate
+    SCALAR
+    ARRAYREF
+    HASHREF
+    CODEREF
+    GLOB
+    GLOBREF
+    SCALARREF
+    HANDLE
+    BOOLEAN
+    UNDEF
+    OBJECT
+);#:all);
+# use Params::Validate::Array qw(validate validation_options 
+    # SCALAR
+    # ARRAYREF
+    # HASHREF
+    # CODEREF
+    # GLOB
+    # GLOBREF
+    # SCALARREF
+    # HANDLE
+    # BOOLEAN
+    # UNDEF
+    # OBJECT
+# );
 use CGI::Carp qw(fatalsToBrowser warningsToBrowser);
 use Perl6::Export::Attrs;
 

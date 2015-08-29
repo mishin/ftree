@@ -1,4 +1,9 @@
-#!/usr/bin/perl
+#!"c:\Dwimperl\perl\bin\perl.exe"
+
+#c:\xampp\cgi-bin\ftree\.. 
+##!"c:\Dwimperl\perl\bin\perl.exe"
+
+###!"C:\xampp\perl\bin\perl.exe"
 use strict;
 use warnings;
 
