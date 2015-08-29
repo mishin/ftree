@@ -13,7 +13,7 @@ install:
      - cpanm --quiet --notest --installdeps .
 
 script:
-     - PERL5OPT=-MDevel::Cover=-coverage,statement,branch,condition,path,subroutine prove -lrsv t
+     - PERL5OPT=-MDevel::Cover=-coverage,statement,branch,condition,path,subroutine prove -lrsv  -Icgi cgi/t
      - cover -ignore_re '[.]t$|prove'
 
 after_success:
