@@ -69,3 +69,9 @@ I'm ready to help with it
  
 Best regards
 Nikolay Mishin
+
+
+generate cpanfile
+
+c:\xampp\cgi-bin\ftree\cgi\lib>perl c:\Users\TOSH\Documents\GitHub\App-scan_prereqs_cpanfile\script\scan-prereqs-cpanfile --ignore=version
+
