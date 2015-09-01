@@ -58,6 +58,13 @@ Instead of:
 https://forum.xojo.com/20697-couldn-t-create-child-process-720002-error-when-deploying-on-wi/0
 http://open-server.ru/forum/viewtopic.php?f=6&t=1059
 
+7. Image cancatenate
+------------------------
+NAME OF THE PICTURE:
+
+One picture may belong to each person. The name of the picture file reflects the person it belongs to. The picture file is obtained from the lowercased full name by substituting spaces with underscores and adding the file extension to it. From example from "Ferenc Bodon3" we get "ferenc_bodon3.jpg".
+
+
 So, It's a good work,
 
 1. but I prefer some refectoring, move to PSGI
