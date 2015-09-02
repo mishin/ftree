@@ -35,11 +35,9 @@ and install new one (1.21)
 5. Also I copy
 ------------------------
 c:\xampp\cgi-bin\ftree\graphics\  
-c:\xampp\cgi-bin\ftree\pictures\  
   
 to  
   
-c:\xampp\htdocs\pictures\  
 c:\xampp\htdocs\graphics\  
   
 to correct show images  
@@ -62,7 +60,11 @@ http://open-server.ru/forum/viewtopic.php?f=6&t=1059
 ------------------------
 NAME OF THE PICTURE:
   
-One picture may belong to each person. The name of the picture file reflects the person it belongs to. The picture file is   obtained from the lowercased full name by substituting spaces with underscores and adding the file extension to it. From   example from "Ferenc Bodon3" we get "ferenc_bodon3.jpg".  
+One picture may belong to each person. The name of the picture file reflects the person it belongs to. The picture file is   obtained from the lowercased full name by substituting spaces with underscores and adding the file extension to it. From   example from "Ferenc Bodon3" we get "ferenc_bodon3.jpg". 
+
+No image put here and name=id.jpg
+c:\xampp\cgi-bin\ftree\pictures\  
+
 
   
 So, It's a good work,  
