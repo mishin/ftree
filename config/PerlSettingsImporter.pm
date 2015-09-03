@@ -32,16 +32,26 @@ sub importSettings {
     adminEmail       => "bodon\@cs.bme.hu",
     adminHomepage    => "http://www.cs.bme.hu/~bodon",
 
-#   EXCEL DATASOURCE: 
-    data_source      => {
-      type => "excel",
+	    data_source      => {
+      type => "ser",
       config => {
         # file_name => "../tree.xls",
-        file_name => "../export-BloodTree.xls",
-        photo_dir        => "../pictures/", # relative to ftree.cgi file 
+        file_name => "../export-BloodTree.ser",
+        # photo_dir        => "../pictures/", # relative to ftree.cgi file 
+        photo_dir        => "../../../htdocs/pictures/", # relative to ftree.cgi file 
         photo_url        => "../pictures/", # set this according to webserver's settings 
       }
     },
+#   EXCEL DATASOURCE: 
+    # data_source      => {
+      # type => "excel",
+      # config => {
+        # # file_name => "../tree.xls",
+        # file_name => "../export-BloodTree.xls",
+        # photo_dir        => "../pictures/", # relative to ftree.cgi file 
+        # photo_url        => "../pictures/", # set this according to webserver's settings 
+      # }
+    # },
 
 ##   CSV/TXT DATASOURCE: 
 #    data_source      => {

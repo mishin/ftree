@@ -66,7 +66,7 @@ sub createFamilyTreeDataFromFile {
           work_places => (defined $sheet->{Cells}[$row][21]) ? 
             [split( /,/, convertCell($sheet->{Cells}[$row][21]))] : undef,
           places_of_living => convertCell($sheet->{Cells}[$row][22]),
-          general    => convertCell($sheet->{Cells}[$row][23]) };
+          general    => convertCell($sheet->{Cells}[$row][23])};
        $family_tree_data->add_person($tempperson);
     }
   }

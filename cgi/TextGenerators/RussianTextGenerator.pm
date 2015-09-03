@@ -143,7 +143,7 @@ sub ZoomIn {
 }
 sub ZoomOut {
   my ($self, $level) = @_;
-  return "Крупнее: показывает до $level уровнев родства.";
+  return "Крупнее: показывает до $level уровней родства.";
 }
 sub birthday_reminder {
     my ($self, $month_index) = @_;
