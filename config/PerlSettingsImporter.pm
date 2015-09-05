@@ -33,10 +33,10 @@ sub importSettings {
     adminHomepage    => "http://www.cs.bme.hu/~bodon",
 
 	    data_source      => {
-      type => "ser",
+      type => "excel",
       config => {
         # file_name => "../tree.xls",
-        file_name => "../export-BloodTree.ser",
+        file_name => "../mishin_family.xls",#export-BloodTree.ser",
         # photo_dir        => "../pictures/", # relative to ftree.cgi file 
         photo_dir        => "../../../htdocs/pictures/", # relative to ftree.cgi file 
         photo_url        => "../pictures/", # set this according to webserver's settings 
